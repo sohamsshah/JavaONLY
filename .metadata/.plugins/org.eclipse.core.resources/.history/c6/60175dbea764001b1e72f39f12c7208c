@@ -1,0 +1,22 @@
+// child class method generally overrides parent class methods
+
+class OverRidden{
+	public void show() {
+		System.out.println("in OverRidden");
+	}
+}
+
+class OverRider extends OverRidden{
+	public void show() {
+		System.out.println("in OverRider");
+	}
+}
+public class MethodOverriding {
+
+	public static void main(String[] args) {
+		OverRider obj = new OverRider();
+		obj.show();
+
+	}
+
+}

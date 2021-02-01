@@ -1,0 +1,26 @@
+
+
+class Calc{
+	public void add(int ... i) {
+		int sum;
+		for(int k:i) {
+			sum+=k;
+		}
+		return sum;
+	}
+}
+
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		int arr[] = new int[4];
+		int arr2[] = {1,2,3,4};
+		Calc obj  = new Calc();
+		obj.add(1,2,3,4);
+		
+		
+
+	}
+
+}

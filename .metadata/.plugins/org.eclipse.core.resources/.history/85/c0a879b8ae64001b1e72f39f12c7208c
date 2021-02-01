@@ -1,0 +1,21 @@
+
+
+// Human class is created so that for someone to extend it. We dont want anyone to create object of human directly.
+abstract class Human{
+	public void eat() {
+		
+	}
+	
+	public void drink() {
+			
+	}
+}
+
+public class AbstractDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
