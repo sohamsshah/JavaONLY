@@ -5,8 +5,23 @@
 //4. We can achieve Multiple Inheritance using Interface in Java
 //5.In Java we cannot do multiple inheritance with class as it causes ambiguity of which method to choose.
 
+
+// Types of Interface
+// 1. Normal -  multiple abstract methods
+// 2. Single Abstract Method -  Functional Interface -  Lambda Expression
+// 3. Marker Interface - without any method Eg. Serializable
+
+@FunctionalInterface //annotation
 interface Writer{
 	abstract void write();
+}
+
+@FunctionalInterface
+interface DefaultDemo{
+	abstract void write();
+	default void show() { // can be overrided
+		System.out.println("inside default method of abstract");
+	}
 }
 
 class Pen implements Writer{
@@ -27,7 +42,15 @@ public class InterfaceDemo {
 		Writer pc = new Pencil();
 		pc.write();
 		p.write();
-
+		
+		Writer obj = () -> System.out.println("Lambda Expression");
+		// The above code can also be written as the concept of anonymous interface:
+//		Writer obj = new Writer() {
+//			public void write() {
+//				System.out.println("Lambda Expression");
+//			}
+//		};
+		obj.write();
 	}
 
 }
