@@ -8,5 +8,6 @@ Feel free to create an issue about what topic you want to add explanations or co
 
 ---
 ### Contributors💻:
-* [sohamsshah](https://github.com/sohamsshah)
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 ---
