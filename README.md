@@ -8,7 +8,7 @@
 
 ---
 
-### __We love Contributionsp__:
+### __We love Contributions__:
 
 Feel free to create an issue about what topic you want to add explanations or code snippets that covers core JS concepts in a better and lucid way. Link a PR with it and we are ready to accept your invaluable contribution!
 
