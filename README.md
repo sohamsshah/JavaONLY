@@ -14,7 +14,7 @@ Feel free to create an issue about what topic you want to add explanations or co
 
 ---
 
-### Contributorsp:
+### Contributors:
 <!-- readme: contributors -start --> 
 <table>
 <tr>
